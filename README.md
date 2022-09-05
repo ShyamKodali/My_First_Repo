@@ -1,2 +1,2 @@
-# My_First_Repo
-All my initial rooting projects are stored in this repo
+# Shell_Scripting
+All my shell scripting projects are stored in this repo
