@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Baisc Skelletal structure of if statement
+# Basic Skelletal structure of if statement
 # if [ condition ]
 # then 
 #     statement 
@@ -21,7 +21,7 @@ then
      echo "condition is true"
 elif [[ $word == "abcd" ]]
 then 
-     echo "condition II is true"
+     echo "condition II is false"
 else 
      echo "condition is false"
 fi 
