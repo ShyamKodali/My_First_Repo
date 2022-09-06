@@ -19,5 +19,7 @@ word=abcd
 if [ $word != "abcdef" ] # == | = => ["$a" = "$b"], != => ["$a" != "$b"], < => [["$a" < "$b"]], > => [["$a" > "$b"]]
 then 
      echo "condition is true"
+else 
+     echo "Condition is false"
 fi 
 
