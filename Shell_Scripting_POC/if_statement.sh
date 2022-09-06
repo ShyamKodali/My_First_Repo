@@ -16,10 +16,13 @@ fi
 
 word=abcd
 
-if [ $word != "abcdef" ] # == | = => ["$a" = "$b"], != => ["$a" != "$b"], < => [["$a" < "$b"]], > => [["$a" > "$b"]]
+if [[ $word != "abcdef" ]] # == | = => ["$a" = "$b"], != => ["$a" != "$b"], < => [["$a" < "$b"]], > => [["$a" > "$b"]]
 then 
      echo "condition is true"
+elif [[ $word == "abcd" ]]
+then 
+     echo "condition II is true"
 else 
-     echo "Condition is false"
+     echo "condition is false"
 fi 
 
