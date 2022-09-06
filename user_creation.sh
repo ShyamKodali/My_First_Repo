@@ -13,6 +13,10 @@ sudo useradd -m -d /opt/username user
 sudo useradd -u 0624 user
 id -u user
 
+# Adds an entry to the /etc/passwd, /etc/shadow, /etc/group and /etc/gshadow files.
+
+sudo passwd username
+
 # Creating a User with Specific Group ID  
 # -g (--gid) option allows you to create a user with a specific initial login group.
 
