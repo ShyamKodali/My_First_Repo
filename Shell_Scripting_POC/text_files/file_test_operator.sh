@@ -40,6 +40,9 @@ else
     echo "$file2_name not empty"
 fi 
 
+# -r, -w, -x to check if file has read, write, execute permissions
+
+
 # -d to check if directory exist or not
 
 echo -e "Enter the name of the directory : \c"
