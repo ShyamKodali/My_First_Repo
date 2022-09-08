@@ -34,7 +34,7 @@ id user
 # chage command to verify the user account expiry date:
 
 sudo useradd -e 2022-09-06 user
-sudo chage -l username 
+sudo change -l username 
 
 # Creating a System User 
 # -r (--system) option to create a system user account
