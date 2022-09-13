@@ -16,8 +16,6 @@ echo "3. Multiplication"
 echo "4. Division"
 echo "5. Modulus[Reminder]"
 read ch
- 
-#echo "$(( num1 + num2 ))"
 
 
 # Switch Case to perform calculator operations
