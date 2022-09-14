@@ -14,28 +14,22 @@ fi
 
 
 if [ -e $file_name ]
+echo "Reading the content of the file...... \n"
 then
-    while read p  
+    while read file_name 
     do
-        echo "$p"
+        echo "$file_name" 
         sleep 0
     done < test.txt 
 fi 
 
 
+read -p "Enter the search string: " search
+read -p "Enter the replace string: " replace
 
+if [[ $search != "" && $replace != "" ]]; 
+then
+    sed -i "s/$search/$replace/" $file_name
+fi
 
-
-# if [ -f $file0_name ]
-# then
-#     if [ -w $file0_name ] 
-#     then
-#         echo "Type some text data. To quit press ctrl+d"
-#         # > will override, >> append 
-#         cat >> $file0_name 
-#     else 
-#         echo "$file0_name donot have write permission"
-#     fi
-# else
-#     echo "$file0_name does not exit"
-# fi 
+echo "$file_name"
