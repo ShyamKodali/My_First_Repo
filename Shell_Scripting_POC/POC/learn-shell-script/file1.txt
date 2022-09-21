@@ -1,0 +1,3 @@
+1a. Make a folder called learn-shell-script.
+    Inside the folder create 2 text files and 1 python file.
+    Check the contents of the folder learn-shell-script. Store the output of previous command into a file contents-of-folder.txt
