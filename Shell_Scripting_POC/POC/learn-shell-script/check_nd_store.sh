@@ -6,6 +6,10 @@ do
     echo $entry
 done
 
-# > == The o/p will be appended to the contents-of-folder.txt file. If the file already exists, it gets overwritten.
+#1a > == The o/p will be appended to the contents-of-folder.txt file. If the file already exists, it gets overwritten.
 
 ls > contents-of-folder.txt
+
+#1b >> == The o/p will be appended to the contents-of-folder.txt file. If the file already exists, it gets overwritten.
+
+ls >> contents-of-folder.txt
