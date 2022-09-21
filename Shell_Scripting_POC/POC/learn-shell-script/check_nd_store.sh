@@ -6,6 +6,6 @@ do
     echo $entry
 done
 
-# > = The o/p will be redirected to the contents-of-folder.txt file. If the file already exists, it gets overwritten.
+# > == The o/p will be appended to the contents-of-folder.txt file. If the file already exists, it gets overwritten.
 
 ls > contents-of-folder.txt
