@@ -1,0 +1,3 @@
+1b. Add 2 more text files in the same folder.
+    Check the contents of the folder again and append again to same file contents-of-folder.txt. 
+    NOTE: The previous content of file should not be overwritten, but appended
