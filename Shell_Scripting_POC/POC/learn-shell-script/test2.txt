@@ -1,0 +1,2 @@
+when we analyze a large amount of data to find relationships between different characteristics, 
+It is nothing more than data analysis.
