@@ -2,8 +2,11 @@
 
 #2a 
 
-declare -a scriptspy=("/scs/sp1.py" "/scs/sp2.py", "/scs/sp3.py","/scs/sp4.py")
-
-for i in "${scriptspy[@]}":
-  do (python3.7 "$i" ; echo "script $i done") &
+search_dir=/Users/kodalisimac/Documents/GitHub/My_First_Repo/Shell_Scripting_POC/POC/learn-shell-script/
+for entry in `ls $search_dir`; 
+do 
+    echo $entry
 done
+
+#2b 
+
